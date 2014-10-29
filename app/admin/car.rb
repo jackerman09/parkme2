@@ -1,4 +1,5 @@
 ActiveAdmin.register Car do
+  permit_params :make, :model
 
 
   # See permitted parameters documentation:
