@@ -1,0 +1,14 @@
+<%= simple_form_for(@car) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :make %>
+    <%= f.input :model %>
+    <%= f.association :garage %>
+    <%= f.association :user %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>
