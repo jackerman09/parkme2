@@ -1,4 +1,5 @@
 ActiveAdmin.register Appointment do
+  permit_params 
 
 
   # See permitted parameters documentation:
